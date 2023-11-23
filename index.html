@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="./dice.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Unbounded:wght@900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="dash">PRESS CLICK ME</h1>
+      <div class="dice-container">
+        <div class="player">
+          <h2>PLAYER 1</h2>
+          <div class="dice dice1">
+            <div class="d14 d15 d16 faces"></div>
+            <div class="faces"></div>
+            <div class="d12 d13 d14 d15 d16 faces"></div>
+            <div class="d16 faces"></div>
+            <div class="d11 d13 d15 faces"></div>
+            <div class="d16 faces"></div>
+            <div class="d12 d13 d14 d15 d16 faces"></div>
+            <div class="faces"></div>
+            <div class="d14 d15 d16 faces"></div>
+          </div>
+        </div>
+        <div class="player">
+          <h2>PLAYER 2</h2>
+          <div class="dice dice2">
+            <div class="d24 d25 d26 faces"></div>
+            <div class="faces"></div>
+            <div class="d22 d23 d24 d25 d26 faces"></div>
+            <div class="d26 faces"></div>
+            <div class="d21 d23 d25 faces"></div>
+            <div class="d26 faces"></div>
+            <div class="d22 d23 d24 d25 d26 faces"></div>
+            <div class="faces"></div>
+            <div class="d24 d25 d26 faces"></div>
+          </div>
+        </div>
+      </div>
+      <button type="button" onclick="roll()" class="btn">CLICK ME</button>
+      <footer>SARAVANAN©DICE GAME</footer>
+    </div>
+
+    <script src="./dice.js"></script>
+  </body>
+</html>
